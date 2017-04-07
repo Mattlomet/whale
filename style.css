@@ -51,17 +51,18 @@ li:last-child {
 
 
 
-.photo-container {
+
+
+.whale1 {
+	background-image: url(whale1.jpg);
 	width:100px;
 	height:100px;
 }
 
-.whale1 {
-	background-image: url(whale1.jpg);
-}
-
 .whale2 {
-	background-image: url(whale2);
+	background-image: url(whale2.jpg);
+	width:100px;
+	height:100px;
 }
 /*footer*/
 footer {
