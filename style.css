@@ -54,6 +54,10 @@ ul{
 }
 
 
+.photo-container {
+	width:100px;
+	height:100px;
+}
 
 .whale1 {
 	background-image: url(whale1.jpg);
