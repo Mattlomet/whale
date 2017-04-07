@@ -3,10 +3,6 @@
 }
 
 
-/*nav bar*/
-* {
-	margin: 0 auto;
-}
 
 
 a {
@@ -34,6 +30,7 @@ ul {
     height: 25px;
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
+    display:inline;
 }
 
 
@@ -42,16 +39,16 @@ ul {
 li {
 	display: inline;
 	border-right: 1px solid #bbb;
-	
-	
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+li:last-child {  
+	border-right: none;
 }
 
 
-ul{
-
-	display:inline;
-
-}
 
 
 /*footer*/
@@ -69,7 +66,8 @@ a {
 
 
 li:hover {
-    background-color: #4CAF50;
+    background-color: #cccccc ;
+    
 }
 
 
