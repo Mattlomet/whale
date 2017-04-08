@@ -72,17 +72,17 @@ li:last-child {
 
 }
 
-main .blog {
+main.blog {
 	margin-right:30px;
 	margin-left:30px;
-	float:left;
-
+/*	float:left;
+*/
 }
 aside ul {
 	display:flex;
 	flex-direction: column;
 	float:right;
-    width: 30%;
+    width: 100%;
     height: 100%;
     padding: 0px;
     border: 5px solid black;
@@ -97,10 +97,10 @@ aside {
 
 }
 
-.blog-sidebar {
-
+aside.blog-sidebar {
+	margin-top:30px;
 	float:right;
-	width:100%;
+	width:30%;
 	height:100%;
 
 	font-size: 20px;
