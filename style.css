@@ -58,15 +58,25 @@ ul{
 
 .whale1 {
 	background-image: url(whale1.jpg);
-	width:100px;
-	height:100px;
+
 }
 
 .whale2 {
 	background-image: url(whale2.jpg);
-	width:100px;
-	height:100px;
+
 }
+
+.whale1, .whale2 {
+	background size:100%;	
+	width:500px;
+	height:300px;
+
+}
+
+
+
+
+
 /*footer*/
 footer {
 
