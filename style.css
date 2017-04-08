@@ -96,6 +96,10 @@ aside {
 	float:right;
 
 }
+aside ul li
+	{
+		list-style: none;
+	}
 
 aside.blog-sidebar {
 	margin-top:30px;
@@ -122,11 +126,12 @@ a {
 	color: black;
 }
 
-
-li:hover {
+footer li:hover {
     background-color: #cccccc ;
     
 }
-
+footer ul li {
+	list-style: none;
+}
 
 
