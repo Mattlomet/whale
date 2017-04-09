@@ -2,28 +2,18 @@
 	margin: 0 auto;
 }
 
-
-
-
 a {
 	text-decoration: none;
 }
 
-
 nav {
-
 	position: fixed;
 	top: 0;
-	width:100%;
-	
+	width:100%;	
 }
+
 main{
 	margin-top: 35px;
-
-}
-
-.button {
-	color:yellow;
 }
 
 nav ul {
@@ -48,24 +38,21 @@ h1, h2 {
 	background-color: #becce2;
 }
 
-
-
 nav ul li {
 	display: inline;
 	border-right: 1px solid #bbb;
 	padding-left: 5px;
 	padding-right: 5px;
-
 }
 
 li:last-child {
 	border-right: none;
 }
 
-
-
-
-
+.bottomrighttext {
+	float: right;
+	color: white;
+}
 
 .whale1 {
 	background-image: url(whale1.jpg);
