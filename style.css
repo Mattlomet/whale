@@ -46,7 +46,7 @@ nav ul li {
 
 }
 
-li:last-child {  
+li:last-child {
 	border-right: none;
 }
 
@@ -66,7 +66,7 @@ li:last-child {
 }
 
 .whale1, .whale2 {
-	background size:100%;	
+	background size:100%;
 	width:500px;
 	height:300px;
 
@@ -128,10 +128,25 @@ a {
 
 footer li:hover {
     background-color: #cccccc ;
-    
+
 }
 footer ul li {
 	list-style: none;
 }
+/*flex containers*/
+.flex-container-index{
+	-webkit-justify-content: center;
+    justify-content: center;
 
+}
+.flex{
+	position:relative;
+	top: 27px;
+	display: -webkit-flex;
+  display: flex;
 
+}
+@media all and (max-width: 480px){
+  .text{
+    display: none;}
+  }
