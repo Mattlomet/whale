@@ -22,6 +22,9 @@ main{
 
 }
 
+.button {
+	color:yellow;
+}
 
 nav ul {
 	position: fixed;
