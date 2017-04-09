@@ -36,6 +36,14 @@ nav ul {
     display:inline;
 }
 
+h1, h2 {
+	background-color: #7c94ba;
+	color: #ffffff;
+}
+
+.blogparagraph {
+	background-color: #becce2;
+}
 
 
 
