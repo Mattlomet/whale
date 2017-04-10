@@ -56,12 +56,10 @@ li:last-child {
 }
 
 .bottomrighttext {
-	float: right;
 	color: white;
 }
 
 .whale1 {
-	background-image: url(whale1.jpg);
 
 }
 
@@ -70,12 +68,6 @@ li:last-child {
 
 }
 
-.whale1, .whale2 {
-	background size:100%;
-	width:500px;
-	height:300px;
-
-}
 
 main.blog {
 	margin-right:30px;
