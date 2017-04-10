@@ -148,15 +148,8 @@ footer ul li {
   display: flex;
 
 }
-<<<<<<< Updated upstream
-@media all and (max-width: 480px){
-  .text{
-    display: none;}
-  }
-=======
-.flex-item{
-width:auto;
-}
+
+
 
 
 @media all and (min-width:961px){
@@ -166,7 +159,7 @@ width:auto;
 	}
 }
 
-@media all and (max-width: 960px){
+@media all and (max-width: 768px){
 	 .flex{
 		flex-wrap:wrap;
 		-webkit-flex-wrap: wrap;}
@@ -175,7 +168,7 @@ width:auto;
 
 
 
-@media all and (max-width: 480px){
+@media all and (max-width: 425px){
   .text{
     display: none;}
 	.flex{
@@ -183,4 +176,4 @@ width:auto;
     justify-content: center;
 	}
   }
->>>>>>> Stashed changes
+
