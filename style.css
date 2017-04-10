@@ -5,7 +5,9 @@
 a {
 	text-decoration: none;
 }
-
+body{
+	background-color: lightgrey;
+}
 nav {
 	position: fixed;
 	top: 0;
