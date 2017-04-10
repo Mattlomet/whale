@@ -13,7 +13,9 @@ nav {
 	top: 0;
 	width:100%;
 }
-
+p{
+	background-color: #becce2;
+}
 main{
 	margin-top: 35px;
 }
