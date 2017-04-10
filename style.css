@@ -165,6 +165,14 @@ footer ul li {
 
 }
 
+.donatebar{
+	background-color: rgba(0, 165, 255, 0.6);
+	font-size: 2em;
+	font-family: helvetica;
+}
+
+
+
 .flex-item{
 width:auto;
 }
@@ -189,6 +197,7 @@ width:auto;
 	right: 8px;
 	font-size: 2em;
 }
+
 
 @media all and (min-width:961px){
 	.flex{
