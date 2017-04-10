@@ -161,11 +161,18 @@ footer ul li {
 	display: -webkit-flex;
   display: flex;
 	margin-bottom:50px;
+	/*border: 1px solid red;*/
 
 }
 
 .flex-item{
 width:auto;
+}
+.about-whale{
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+	/*height: 100%;*/
 }
 
 .index-image{
