@@ -206,7 +206,7 @@ width:auto;
 
 	aside ul li {
 		display:flex;
-		   white-space:nowrap;
+		white-space:nowrap;
 
 
 	}
@@ -223,4 +223,13 @@ width:auto;
 		-webkit-justify-content: center;
     justify-content: center;
 	}
+
+	aside ul li {
+		content: ' '; 
+
+
+	}
+
+
   }
+
