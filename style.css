@@ -181,8 +181,10 @@ width:auto;
 	 .flex{
 		flex-wrap:wrap;
 		-webkit-flex-wrap: wrap;}
+
 	
-	.blog-sidebar {
+	aside.blog-sidebar {
+
 	display:inline;
 
 	height:initial;
