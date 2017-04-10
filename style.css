@@ -9,7 +9,7 @@ a {
 nav {
 	position: fixed;
 	top: 0;
-	width:100%;	
+	width:100%;
 }
 
 main{
@@ -154,13 +154,31 @@ footer ul li {
 
 }
 .flex{
-	position:relative;
-	top: 50px;
+	margin-top:50px;
 	display: -webkit-flex;
   display: flex;
+	margin-bottom:50px;
 
+}
+.flex-item{
+width:auto;
 }
 @media all and (max-width: 480px){
   .text{
     display: none;}
+	.flex{
+		-webkit-justify-content: center;
+    justify-content: center;
+	}
   }
+	@media all and (max-width: 960px){
+	  .flex{
+			flex-wrap:wrap;
+			-webkit-flex-wrap: wrap;}
+	  }
+	@media all and (min-width:961px){
+		.flex{
+			flex-wrap:nowrap;
+			-webkit-flex-wrap: nowrap;
+		}
+	}
