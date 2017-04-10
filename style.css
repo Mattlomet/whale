@@ -54,9 +54,7 @@ li:last-child {
 	border-right: none;
 }
 
-.bottomrighttext {
-	color: white;
-}
+
 
 .whale1 {
 
@@ -88,7 +86,7 @@ aside.blog-sidebar {
 
 }
 aside ul {
-	
+
 	flex-direction: column;
 	float:right;
     width: 100%;
@@ -160,15 +158,34 @@ footer ul li {
 	display: -webkit-flex;
   display: flex;
 	margin-bottom:50px;
+	/*border: 1px solid red;*/
 
 }
 
 .flex-item{
 width:auto;
 }
+.about-whale{
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+	/*height: 100%;*/
+}
 
-
-
+.index-image{
+	position: relative;
+}
+.index-image>img {
+	width: 100%;
+	height: auto;
+}
+.bottomrighttext {
+	color: white;
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	font-size: 2em;
+}
 
 @media all and (min-width:961px){
 	.flex{
@@ -177,12 +194,17 @@ width:auto;
 	}
 }
 
-@media all and (max-width: 769px){
+@media all and (max-width: 769px) {
 	 .flex{
 		flex-wrap:wrap;
 		-webkit-flex-wrap: wrap;}
+<<<<<<< HEAD
 	
 	.blog-sidebar {
+=======
+
+	aside.blog-sidebar {
+>>>>>>> dc96b7a130685023ec3e01f62c65c8cbc04b5617
 	display:inline;
 
 	height:initial;
@@ -211,7 +233,7 @@ width:auto;
 
 	}
 
-
+}
 
 
 
