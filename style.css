@@ -83,15 +83,8 @@ main.blog {
 	height:100%;
 
 	font-size: 20px;
-
 }
-<<<<<<< HEAD
-aside ul {
-
-=======
 .blog-sidebar ul {
-	
->>>>>>> blog-sidebar
 	flex-direction: column;
 	float:right;
     width: 100%;
@@ -247,9 +240,7 @@ width:auto;
 
 	}
 
-<<<<<<< HEAD
-}
-=======
+
 	.blog-sidebar ul h1 {
 		font-size: 20px;
 	}
@@ -259,7 +250,7 @@ width:auto;
 		margin-top: 50px;
 	}
 
->>>>>>> blog-sidebar
+
 
 
 
