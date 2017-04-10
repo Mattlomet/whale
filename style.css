@@ -57,9 +57,7 @@ li:last-child {
 	border-right: none;
 }
 
-.bottomrighttext {
-	color: white;
-}
+
 
 .whale1 {
 
@@ -91,7 +89,7 @@ aside.blog-sidebar {
 
 }
 aside ul {
-	
+
 	flex-direction: column;
 	float:right;
     width: 100%;
@@ -170,8 +168,20 @@ footer ul li {
 width:auto;
 }
 
-
-
+.index-image{
+	position: relative;
+}
+.index-image>img {
+	width: 100%;
+	height: auto;
+}
+.bottomrighttext {
+	color: white;
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	font-size: 2em;
+}
 
 @media all and (min-width:961px){
 	.flex{
@@ -184,7 +194,7 @@ width:auto;
 	 .flex{
 		flex-wrap:wrap;
 		-webkit-flex-wrap: wrap;}
-	
+
 	aside.blog-sidebar {
 	display:inline;
 
