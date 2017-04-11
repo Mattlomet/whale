@@ -25,6 +25,9 @@ nav ul li {
 	padding-left: 5px;
 	padding-right: 5px;
 }
+.wide-image{
+	width: 100%;
+}
 body{
 	background-color: lightgrey;
 }
