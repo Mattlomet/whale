@@ -119,7 +119,7 @@ aside a {
 
 /*footer*/
 footer {
-
+	margin-left: -9px;
 	position: fixed;
 	bottom:0;
 	width:100%;
@@ -138,8 +138,8 @@ footer ul{
     width: 100%;
    	margin: 0 auto;
 	padding: 0px;
-    height: 30px;
-    background-color: green;
+    height: 40px;
+    background-color: #f3f3f3;
 
 }
 footer ul li {
