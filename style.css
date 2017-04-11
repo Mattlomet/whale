@@ -107,11 +107,9 @@ main.blog {
 	background-color: #becce2;
 }
 
-.blog-sidebar {
-	margin:0;
-	float:right;
 
-}
+
+
 .blog-sidebar ul li
 	{
 		list-style: none;
