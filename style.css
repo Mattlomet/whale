@@ -13,11 +13,11 @@ nav {
 	top: 0;
 	width:100%;
 }
-p{
-	background-color: #becce2;
-}
+
 main{
 	margin-top: 35px;
+	background-color: #f3f3f3;
+	border: 2px solid #6ac0f3;
 }
 
 nav ul {
@@ -123,7 +123,7 @@ aside a {
 
 /*footer*/
 footer {
-	margin-left: -9px;
+	
 	position: fixed;
 	bottom:0;
 	width:100%;
@@ -143,7 +143,7 @@ footer ul{
    	margin: 0 auto;
 	padding: 0px;
     height: 40px;
-    background-color: #f3f3f3;
+    background-color: #adfbff;
 
 }
 footer ul li {
@@ -170,7 +170,7 @@ footer ul li {
 }
 
 .donatebar{
-	background-color: rgba(0, 165, 255, 0.6);
+	background-color: #f3f3f3;
 	font-size: 2em;
 	font-family: helvetica;
 }
