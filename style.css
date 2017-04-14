@@ -91,11 +91,7 @@ main.blog {
 	width:30%;
 	height:100%;
 	font-size: 20px;
-<<<<<<< HEAD
-=======
 
-
->>>>>>> blog-sidebar
 }
 
 .blog-sidebar ul {
@@ -157,13 +153,10 @@ footer ul{
     width: 100%;
    	margin: 0 auto;
 	padding: 0px;
-<<<<<<< HEAD
+
     height: 40px;
     background-color: #adfbff;
-=======
-    height: 30px;
-    background-color: darkgrey;
->>>>>>> blog-sidebar
+
 
 }
 footer ul li {
@@ -270,12 +263,10 @@ width:auto;
 
 
 }
-<<<<<<< HEAD
+
 
 	.blog-sidebar ul h1 {
-=======
-	.blog-sidebar h2 {
->>>>>>> blog-sidebar
+
 		font-size: 20px;
 	}
 
