@@ -280,9 +280,8 @@ width:auto;
 
 
 @media all and (max-width: 425px){
-	 blog-sidebar
-  .text{
-    display: none;}
+	.text{
+		display: none;}
 	.flex{
 		-webkit-justify-content: center;
     justify-content: center;
@@ -299,4 +298,4 @@ width:auto;
 		margin-top:5px;
 		margin-bottom:5px;
 	}
-  }
+}
